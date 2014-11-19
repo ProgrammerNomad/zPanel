@@ -1,19 +1,19 @@
 We’ll dive straight in here and update the server using:
 
-# yum -y update
+  # yum -y update
 
 for completeness we’ll reboot after the update:
 
-# reboot
+  # reboot
 
 Next, we need to get wget! wget will help us download the ZPanel installation package:
 
-# yum install wget
+  # yum install wget
 
 Next we’ll grab the installer package from github like this:
 
-# wget https://rawgit.com/srapsware/zPanel/master/CentOS-6_4/10_1_1.sh
-# sh 10_1_1.sh
+  # wget https://rawgit.com/srapsware/zPanel/master/CentOS-6_4/10_1_1.sh
+  # sh 10_1_1.sh
 
 next follow the instruction.
 
