@@ -13,6 +13,7 @@ Next, we need to get wget! wget will help us download the ZPanel installation pa
 Next we’ll grab the installer package from github like this:
 
   # wget https://rawgit.com/srapsware/zPanel/master/CentOS-6_4/10_1_1.sh
+  # chmod +x 10_1_1.sh
   # sh 10_1_1.sh
 
 next follow the instruction.
